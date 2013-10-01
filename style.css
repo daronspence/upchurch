@@ -14,7 +14,6 @@ body {
 	font-size: 16px;
 	color: #fff;
 	display: flex;
-	
 	flex-direction: column;
 	margin: 0;
 	min-height: 100vh;
@@ -74,6 +73,13 @@ section {
 	margin-top: 2em;
 	text-align: center;
 }
+.pics {
+	display: flex;
+	justify-content: space-between;
+	background: none;
+	padding: 0;
+
+}
 aside {
 	background: rgba(255,255,255,.8);
 	border-radius: 1em;
@@ -81,13 +87,16 @@ aside {
 	color: #222;
 	float: left;
 	width: 18em;
-	margin: 2em 1em 0;
+	margin: 2em 0;
+	text-align: left;
 }
 aside img {
 	display: block;
 	width: 75%;
 	border-radius: 50%;
 	margin: 0 auto;
+	border: 5px solid #fff;
+	box-shadow: 0 0 15px 0 #000;
 }
 footer {
 	background: rgba(10,10,10,.9);
